@@ -8,23 +8,6 @@ body {
     font-family: "Lora", Serif;
 }
 
-@media (max-width: 990px) {
-    .display-5 {
-        font-size: 300%;
-        /* Увеличьте размер шрифта по вашему усмотрению */
-    }
-
-    .lead {
-        font-size: 250%;
-        /* Увеличьте размер шрифта по вашему усмотрению */
-    }
-
-    .btn {
-        font-size: 220%;
-        /* Увеличьте размер шрифта кнопок по вашему усмотрению */
-    }
-}
-
 header {
     position: relative;
     background-color: black;
@@ -59,7 +42,7 @@ header .overlay {
     top: 0;
     left: 0;
     height: 100%;
-    width: 100%;
+    width: auto;
     background-color: black;
     opacity: 0.5;
     z-index: 1;
