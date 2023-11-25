@@ -8,6 +8,14 @@ body {
     font-family: "Lora", Serif;
 }
 
+.navbar-brand {
+    font-size: 300%;
+}
+
+.navbar-nav {
+    font-size: 200%;
+}
+
 
 @media (min-width: 991px) {
     .video {
@@ -21,5 +29,13 @@ body {
 
     .ad {
         padding-right: 30%;
+    }
+
+    .navbar-brand {
+        font-size: 200%;
+    }
+
+    .navbar-nav {
+        font-size: 130%;
     }
 }
