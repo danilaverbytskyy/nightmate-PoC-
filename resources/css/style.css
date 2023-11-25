@@ -82,7 +82,7 @@ header .overlay {
 
 @media (min-width: 996px) {
     .navbar-brand {
-        font-size: 250%;
+        font-size: 200%;
     }
 
     .nav-link {
