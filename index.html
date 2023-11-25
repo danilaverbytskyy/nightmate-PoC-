@@ -50,25 +50,23 @@
         </nav>
         <!-- Header-->
         <header class="bg-dark py-5 description">
-            <div class="container mx-5">
-                <div class="row gx-5 ps-5 align-items-center justify-content-center ad">
-                    <div class="col-lg-8 col-xl-7 col-xxl-6">
-                        <div class="my-5 text-center text-xl-start">
-                            <h1 class="display-5 fw-bolder text-white mb-2 text-center">A modern tracker for your dreams
-                            </h1>
-                            <p class="lead fw-normal text-white-50 mb-4 text-center">Daily helper for your nightly
-                                unique
-                                experience</p>
-                            <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-start">
-                                <a class="btn btn-primary btn-lg px-4 me-sm-3" href="#features">Write Down Now</a>
-                                <a class="btn btn-outline-light btn-lg px-4" href="#">Learn More</a>
-                            </div>
-                        </div>
+            <!-- This div is  intentionally blank. It creates the transparent black overlay over the video which you can modify in the CSS -->
+            <div class="overlay"></div>
+            
+            <!-- The HTML5 video element that will create the background video on the header -->
+            <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+                <source src="resources/img/headerVideo.mp4" type="video/mp4">
+            </video>
+            
+            <!-- The header content -->
+            <div class="container h-100">
+                <div class="d-flex h-100 text-center align-items-center">
+                    <div class="w-100 text-white">
+                        <h1 class="display-3">A modern tracker for your dreams</h1>
+                        <p class="lead mb-0">Daily helper for your nightly
+                        unique
+                        experience</p>
                     </div>
-                    <video autoplay loop muted class="embed-responsive-item video mx-5">
-                        <source src="resources/img/video.mp4" type="video/mp4">
-                        Your browser does not support the video tag.
-                    </video>
                 </div>
             </div>
         </header>
