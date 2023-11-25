@@ -8,38 +8,6 @@ body {
     font-family: "Lora", Serif;
 }
 
-.navbar-brand {
-    font-size: 400%;
-}
-
-.navbar-nav {
-    font-size: 300%;
-}
-
-@media (min-width: 991px) {
-    .video {
-        position: absolute;
-        top: 40%;
-        right: 0;
-        transform: translateY(-50%);
-        width: 45%;
-        height: auto;
-    }
-
-    .ad {
-        padding-right: 30%;
-    }
-
-    .navbar-brand {
-        font-size: 200%;
-    }
-
-    .navbar-nav {
-        font-size: 130%;
-    }
-}
-
-
 @media (max-width: 990px) {
     .display-5 {
         font-size: 300%;
