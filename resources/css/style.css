@@ -32,27 +32,6 @@ header video {
     transform: translateX(-50%) translateY(-50%);
 }
 
-.navbar-brand {
-    font-size: 300%;
-}
-
-.nav-link {
-    font-size: 150%;
-}
-
-@media (max-width: 767px) {
-    header video {
-        width: 100%;
-        height: auto;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
-
-
-}
-
-
 header .container {
     position: relative;
     z-index: 2;
@@ -75,10 +54,46 @@ header .overlay {
 
 @media (pointer: coarse) and (hover: none) {
     header {
-        background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
+        background: url('https://unsplash.com/photos/milky-way-on-mountains-9wH624ALFQA') black no-repeat center center scroll;
     }
 
     header video {
         display: none;
+    }
+}
+
+.navbar-brand {
+    font-size: 500%;
+}
+
+.nav-link {
+    font-size:250%;
+}
+
+@media (max-width: 767px) {
+    header video {
+        width: 100%;
+        height: auto;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+@media (min-width: 996px) {
+    .navbar-brand {
+        font-size: 250%;
+    }
+
+    .nav-link {
+        font-size:150%;
+    }
+
+    header video {
+        width: 100%;
+        height: auto;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
 }
