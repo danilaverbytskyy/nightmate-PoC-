@@ -63,7 +63,7 @@ header .overlay {
 }
 
 .navbar-brand {
-    font-size: 450%; /*mobile*/
+    font-size: 300%; /*mobile*/
 }
 
 .nav-link {
