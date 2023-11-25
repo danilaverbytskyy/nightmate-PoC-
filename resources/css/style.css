@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Lora", Serif;
+}
+
+
+@media (min-width: 991px) {
+    .video {
+        position: absolute;
+        top: 40%;
+        right: 0;
+        transform: translateY(-50%);
+        width: 45%;
+        height: auto;
+    }
+
+    .ad {
+        padding-right: 30%;
+    }
+}
