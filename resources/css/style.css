@@ -9,13 +9,12 @@ body {
 }
 
 .navbar-brand {
-    font-size: 300%;
+    font-size: 400%;
 }
 
 .navbar-nav {
-    font-size: 200%;
+    font-size: 300%;
 }
-
 
 @media (min-width: 991px) {
     .video {
@@ -37,5 +36,23 @@ body {
 
     .navbar-nav {
         font-size: 130%;
+    }
+}
+
+
+@media (max-width: 990px) {
+    .display-5 {
+        font-size: 300%;
+        /* Увеличьте размер шрифта по вашему усмотрению */
+    }
+
+    .lead {
+        font-size: 250%;
+        /* Увеличьте размер шрифта по вашему усмотрению */
+    }
+
+    .btn {
+        font-size: 220%;
+        /* Увеличьте размер шрифта кнопок по вашему усмотрению */
     }
 }
