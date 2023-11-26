@@ -1,2 +1,2 @@
-# project
-## [Open web version](https://danilaverbytskyy.github.io/nightmate/)
+# [Night Mate](https://danilaverbytskyy.github.io/nightmate/)
+A modern tracker for your sleep
