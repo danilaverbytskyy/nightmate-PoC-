@@ -80,7 +80,7 @@ header .overlay {
     }
 }
 
-.loginbtn, .signupbtn {
+.contactbtn {
     font-size: 200%;
 }
 
@@ -101,7 +101,7 @@ header .overlay {
         transform: translate(-50%, -50%);
     }
 
-    .loginbtn, .signupbtn {
+    .contactbtn {
         font-size: 170%;
     }
 }
