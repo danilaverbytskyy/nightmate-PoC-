@@ -80,6 +80,10 @@ header .overlay {
     }
 }
 
+.loginbtn, .signupbtn {
+    font-size: 200%;
+}
+
 @media (min-width: 996px) {
     .navbar-brand {
         font-size: 250%;
@@ -95,5 +99,9 @@ header .overlay {
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
+    }
+
+    .loginbtn, .signupbtn {
+        font-size: 170%;
     }
 }
