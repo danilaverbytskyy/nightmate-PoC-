@@ -105,17 +105,17 @@ header .overlay {
         font-size: 170%;
     }
 }
-.form {
-    background: rgba(101, 5, 255, 0.78);
-    background: linear-gradient(to right, #0062E6, #33AEFF);
-}
+/*.form {*/
+/*    background: rgba(101, 5, 255, 0.78);*/
+/*    background: linear-gradient(to right, #0062E6, #33AEFF);*/
+/*}*/
 
-.form-image {
-    background-image: url('https://source.unsplash.com/kKvQJ6rK6S4/660x1000');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
+/*.form-image {*/
+/*    background-image: url('https://source.unsplash.com/kKvQJ6rK6S4/660x1000');*/
+/*    background-size: cover;*/
+/*    background-position: center;*/
+/*    background-repeat: no-repeat;*/
+/*}*/
 
 .feature {
     display: inline-flex;
